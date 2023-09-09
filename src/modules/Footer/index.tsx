@@ -26,13 +26,23 @@ export const Footer = (): JSX.Element => (
         <Subtitle color={"white"}>Redes Sociais</Subtitle>
         <ul>
           <li>
-            <Link href={"#"}>Link</Link>
+            <Link href={"https://www.linkedin.com/in/samuelbalena/"}>
+              Linkedin
+            </Link>
           </li>
           <li>
-            <Link href={"#"}>Link</Link>
+            <Link
+              href={
+                "https://api.whatsapp.com/send/?phone=5511953748908&text&app_absent=0"
+              }
+            >
+              Whatsapp
+            </Link>
           </li>
           <li>
-            <Link href={"#"}>Link</Link>
+            <Link href={"https://www.facebook.com/samuel.balenadasilva/"}>
+              Facebook
+            </Link>
           </li>
         </ul>
       </span>

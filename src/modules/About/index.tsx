@@ -10,7 +10,7 @@ import {
 } from "./styles";
 
 export const About = (): JSX.Element => (
-  <Container>
+  <Container id="About">
     <AboutItem>
       <Title size={"medium"} weight={"semiBold"} textTransform={"uppercase"}>
         Sobre mim
@@ -32,9 +32,24 @@ export const About = (): JSX.Element => (
         Venha me conhecer um pouco mais sobre mim em minhas redes sociais.
       </Paragraph>
       <SocialMediaIcons>
-        <SocialIcons src="/images/linkedin.png" width={25} height={25} />
-        <SocialIcons src="/images/facebook.png" width={25} height={25} />
-        <SocialIcons src="/images/whatsapp.png" width={30} height={30} />
+        <SocialIcons
+          src="/images/linkedin.png"
+          width={25}
+          height={25}
+          href="https://www.linkedin.com/in/samuelbalena/"
+        />
+        <SocialIcons
+          src="/images/facebook.png"
+          width={25}
+          height={25}
+          href="https://www.facebook.com/samuel.balenadasilva/"
+        />
+        <SocialIcons
+          src="/images/whatsapp.png"
+          width={30}
+          height={30}
+          href="https://api.whatsapp.com/send/?phone=5511953748908&text&app_absent=0"
+        />
       </SocialMediaIcons>
     </AboutSocialMedia>
   </Container>

@@ -10,7 +10,7 @@ import {
 } from "./styles";
 
 export const Testimonials = (): JSX.Element => (
-  <Container>
+  <Container id="Testimonials">
     <TestimonialsItem>
       <Title size={"medium"} textTransform={"uppercase"}>
         Incríveis depoimentos
@@ -26,29 +26,29 @@ export const Testimonials = (): JSX.Element => (
     <TestimonialsContainer>
       <TestimonialsContainerItem>
         <CardTestimonials
-          src="/images/facebook.png"
-          alt="sla"
-          name="nome"
-          jobRole="front"
-          testimonial="aqui"
+          src="/images/Matheus.jfif"
+          alt="Matheus Sartori"
+          name="Matheus Sartori"
+          jobRole="Desenvolvedor Full Stack"
+          testimonial="O Samuel é uma pessoa extremamente dedicada, e teve uma evolução muito boa no período em que trabalhamos juntos. Teve várias sugestões legais, para melhorar alguns pontos nos projetos que trabalhamos, e pude observar que ele já é um excelente profissional no front-end."
         />
       </TestimonialsContainerItem>
       <TestimonialsContainerItem>
         <CardTestimonials
-          src="/images/facebook.png"
-          alt="sla"
-          name="nome"
-          jobRole="front"
-          testimonial="aqui"
+          src="/images/D[ario.jfif"
+          alt="Dário Junior"
+          name="Dário Junior"
+          jobRole="Desenvolvedor Full Stack"
+          testimonial="Trabalhar com o Samuel foi excelente, dedicação, facilidade de comunicação e um espírito de equipe sensacional, com certeza agrega muito no ambiente em que está e faz muita falta, topa qualquer desafio com muito prazer!"
         />
       </TestimonialsContainerItem>
       <TestimonialsContainerItem>
         <CardTestimonials
-          src="/images/facebook.png"
-          alt="sla"
-          name="nome"
-          jobRole="front"
-          testimonial="aqui"
+          src="/images/Daniel.jfif"
+          alt="Daniel Sobrinho"
+          name="Daniel Sobrinho"
+          jobRole="Desenvolvedor Full Stack"
+          testimonial="Foi um grande prazer trabalhar com o Samuel, sempre apresenta boas sugestões para os projetos em que participa, se dedica bastante naquilo que faz. Certamente o Samuel é um profissional que agrega bastante ao time!"
         />
       </TestimonialsContainerItem>
     </TestimonialsContainer>

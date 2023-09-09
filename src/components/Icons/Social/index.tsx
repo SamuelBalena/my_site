@@ -4,17 +4,21 @@ interface SocialIconsProps {
   src: string;
   width: number;
   height: number;
+  href: string;
 }
 
 export const SocialIcons = ({
   src,
   width,
   height,
+  href,
 }: SocialIconsProps): JSX.Element => (
-  <Image
-    src={src}
-    alt="Icone de uma rede social"
-    width={width}
-    height={height}
-  />
+  <a href={href}>
+    <Image
+      src={src}
+      alt="Icone de uma rede social"
+      width={width}
+      height={height}
+    />
+  </a>
 );

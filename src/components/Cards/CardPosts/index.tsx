@@ -8,6 +8,7 @@ interface CardPostsProps {
   alt: string;
   title: string;
   content: string;
+  href: string;
 }
 
 export const CardPosts = ({
@@ -15,10 +16,11 @@ export const CardPosts = ({
   alt,
   title,
   content,
+  href,
 }: CardPostsProps): JSX.Element => (
-  <Container>
+  <Container href={href}>
     <header>
-      <Image src={src} alt={alt} width={100} height={100} />
+      <Image src={src} alt={alt} width={350} height={200} />
     </header>
     <article>
       <Title size={"medium"} weight={"bold"} textTransform={"uppercase"}>

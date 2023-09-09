@@ -9,6 +9,10 @@ export const Container = styled("section", {
   margin: "150px auto",
   padding: "50px 0",
 
+  "@tablet": {
+    margin: "50px 0",
+  },
+
   // backgroundColor: "#F8F9FF",
 });
 
@@ -33,4 +37,9 @@ export const PortfolioWorks = styled("ul", {
   gridTemplateColumns: "repeat(2, 1fr)",
   gridGap: "30px",
   margin: "50px 0",
+
+  "@laptop": {
+    display: "flex",
+    flexDirection: "column",
+  },
 });

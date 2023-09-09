@@ -10,7 +10,7 @@ import {
 } from "./styles";
 
 export const Posts = (): JSX.Element => (
-  <Container>
+  <Container id="Articles">
     <PostsItem>
       <Title size={"medium"} textTransform={"uppercase"}>
         Posts Recentes
@@ -26,26 +26,29 @@ export const Posts = (): JSX.Element => (
     <PostsCarousel>
       <PostsCarouselItem>
         <CardPosts
-          src="/images/facebook.png"
-          alt=""
-          title="teste"
-          content="teste"
+          src="/images/Banner código.jfif"
+          alt="Banner Código"
+          title="Algoritmos: Tipos de Dados"
+          content="No contexto do mundo da programação, dados é tudo aquilo..."
+          href="https://www.linkedin.com/pulse/algoritmos-tipos-de-dados-samuel-balena/?trackingId=RZuLexAeRtypqV4lfccBxQ%3D%3D"
         />
       </PostsCarouselItem>
       <PostsCarouselItem>
         <CardPosts
-          src="/images/facebook.png"
-          alt=""
-          title="teste"
-          content="teste"
+          src="/images/Banner React.png"
+          alt="Banner React"
+          title="Mergulhando no React 🤿"
+          content="Hoje em dia no ramo de programação sabemos que existe..."
+          href="https://www.linkedin.com/pulse/mergulhando-react-samuel-balena/?trackingId=RZuLexAeRtypqV4lfccBxQ%3D%3D"
         />
       </PostsCarouselItem>
       <PostsCarouselItem>
         <CardPosts
-          src="/images/facebook.png"
-          alt=""
-          title="teste"
-          content="teste"
+          src="/images/Banner código.jfif"
+          alt="Banner Código"
+          title="Introdução a Algoritmos 👨‍💻"
+          content="Algoritmos é um assunto básico que está presente em nossa..."
+          href="https://www.linkedin.com/pulse/introdu%25C3%25A7%25C3%25A3o-algoritmos-samuel-balena/?trackingId=RZuLexAeRtypqV4lfccBxQ%3D%3D"
         />
       </PostsCarouselItem>
     </PostsCarousel>

@@ -9,6 +9,7 @@ export const Button = styled("a", {
   borderRadius: 10,
 
   color: "$white",
+  textDecoration: "none",
 
   variants: {
     colors: {

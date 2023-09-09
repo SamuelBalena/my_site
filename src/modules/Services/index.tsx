@@ -6,7 +6,7 @@ import { Title } from "../../components/Title/style";
 import { CardContainer, Container, ServicesItem } from "./styles";
 
 export const Services = (): JSX.Element => (
-  <Container>
+  <Container id="Services">
     <ServicesItem>
       <Title size={"medium"} textTransform={"uppercase"}>
         Serviços
@@ -22,58 +22,58 @@ export const Services = (): JSX.Element => (
     <CardContainer>
       <CardServices>
         <Image
-          src={"/images/facebook.png"}
+          src={"/images/landingpage.png"}
           alt="Texto aqui"
           height={50}
           width={50}
         />
         <Subtitle size={"medium"} color={"dark_blue"}>
-          Algum texto aqui
+          Landingpage
         </Subtitle>
-        <Paragraph size={"small"} color={"gray"}>
-          Algum texto aqui
+        <Paragraph size={"smalles"} color={"gray"}>
+          Posso desenvolver o layout do seu site!
         </Paragraph>
       </CardServices>
       <CardServices>
         <Image
-          src={"/images/facebook.png"}
+          src={"/images/api.png"}
           alt="Texto aqui"
           height={50}
           width={50}
         />
         <Subtitle size={"medium"} color={"dark_blue"}>
-          Algum texto aqui
+          Sistema
         </Subtitle>
-        <Paragraph size={"small"} color={"gray"}>
-          Algum texto aqui
+        <Paragraph size={"smalles"} color={"gray"}>
+          Desenvolvimento da parte lógica do seus serviços.
         </Paragraph>
       </CardServices>
       <CardServices>
         <Image
-          src={"/images/facebook.png"}
+          src={"/images/email.png"}
           alt="Texto aqui"
           height={50}
           width={50}
         />
         <Subtitle size={"medium"} color={"dark_blue"}>
-          Algum texto aqui
+          E-mail
         </Subtitle>
-        <Paragraph size={"small"} color={"gray"}>
-          Algum texto aqui
+        <Paragraph size={"smalles"} color={"gray"}>
+          Posso desenvolver o seu e-mail, e fazer o marketing.
         </Paragraph>
       </CardServices>
       <CardServices>
         <Image
-          src={"/images/facebook.png"}
+          src={"/images/analytics.png"}
           alt="Texto aqui"
           height={50}
           width={50}
         />
         <Subtitle size={"medium"} color={"dark_blue"}>
-          Algum texto aqui
+          Analytics
         </Subtitle>
-        <Paragraph size={"small"} color={"gray"}>
-          Algum texto aqui
+        <Paragraph size={"smalles"} color={"gray"}>
+          Utilizo os serviços da Google para monitorar o seu negócio.
         </Paragraph>
       </CardServices>
     </CardContainer>

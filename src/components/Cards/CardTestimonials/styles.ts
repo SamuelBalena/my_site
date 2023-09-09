@@ -7,12 +7,20 @@ export const Container = styled("div", {
 
   header: {
     display: "flex",
-    //justifyContent: "space-between",
     alignItems: "center",
+    marginTop: 20,
+  },
+
+  img: {
+    borderRadius: 50,
   },
 
   div: {
     paddingLeft: 15,
+  },
+
+  main: {
+    marginTop: 20,
   },
 
   borderRadius: 5,

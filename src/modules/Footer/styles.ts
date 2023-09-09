@@ -14,6 +14,14 @@ export const Container = styled("footer", {
     gap: 75,
     maxWidth: 1110,
     margin: "0 auto",
+
+    "@laptop": {
+      gridTemplateColumns: "repeat(2, 1fr)",
+    },
+
+    "@lg": {
+      gridTemplateColumns: "repeat(1, 1fr)",
+    },
   },
 
   span: {

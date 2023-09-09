@@ -4,9 +4,15 @@ export const Container = styled("main", {
   display: "flex",
   alignItems: "center",
   justifyContent: "space-between",
+  flexWrap: "wrap",
 
   maxWidth: 1110,
   margin: "125px auto",
+  padding: "0 50px",
+
+  "@tablet": {
+    margin: "75px 0",
+  },
 });
 
 export const AboutItem = styled("div", {

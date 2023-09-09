@@ -16,9 +16,13 @@ export const Header = (): JSX.Element => (
           Samuel Balena
         </Title>
         <Subtitle size={"mediumgest"} weight={"regular"} color={"white"}>
-          Profissional Freelancer Front-End
+          Developer Freelancer
         </Subtitle>
-        <Button size={"sm"} colors={"green"}>
+        <Button
+          size={"sm"}
+          colors={"green"}
+          href="https://api.whatsapp.com/send/?phone=5511953748908&text&app_absent=0"
+        >
           Contato
         </Button>
       </HeroItem>

@@ -12,6 +12,8 @@ export const Container = styled("div", {
 
   h2: {
     textAlign: "center",
+    marginBottom: 5,
+    marginTop: 5,
   },
 
   p: {
@@ -24,4 +26,8 @@ export const Container = styled("div", {
 
   borderRadius: 5,
   boxShadow: "0px 10px 20px -3px rgba(0,0,0,0.2)",
+
+  "@tablet": {
+    margin: "25px 0",
+  },
 });

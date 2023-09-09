@@ -8,6 +8,10 @@ export const Container = styled("header", {
   backgroundColor: "rgb(9,30,121)",
   background:
     "linear-gradient(90deg, rgba(9,30,121,1) 0%, rgba(0,236,255,1) 100%)",
+
+  "@tablet": {
+    height: 650,
+  },
 });
 
 export const Hero = styled("div", {
@@ -16,6 +20,17 @@ export const Hero = styled("div", {
   alignItems: "center",
   width: 1110,
   margin: "0 auto",
+
+  "@laptop": {
+    padding: "0 50px",
+  },
+
+  "@tablet": {
+    padding: 0,
+    flexDirection: "column-reverse",
+    justifyContent: "normal",
+    marginBottom: 50,
+  },
 });
 
 export const HeroItem = styled("div", {
@@ -27,6 +42,12 @@ export const HeroItem = styled("div", {
 
   a: {
     marginTop: 15,
+  },
+
+  "@tablet": {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
   },
 });
 
