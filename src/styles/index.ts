@@ -21,6 +21,7 @@ export const { css, styled, globalCss, keyframes, getCssText } = createStitches(
       laptop: "(max-width: 1024px)",
       desktop: "(max-width: 1440px)",
       widescreen: "(max-width: 1920px)",
+      tablet_menu: "(min-width: 768px)",
     },
   }
 );
