@@ -3,6 +3,7 @@ import { styled } from "../../../styles";
 export const Container = styled("div", {
   width: "100%",
   margin: "0 auto",
+  padding: 20,
 
   h2: {
     marginTop: 15,

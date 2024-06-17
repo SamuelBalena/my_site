@@ -12,6 +12,12 @@ export const Container = styled("header", {
   "@tablet": {
     height: 650,
   },
+
+  "img": {
+    width: "100%",
+    height: "auto",
+    padding: 10
+  }
 });
 
 export const Hero = styled("div", {

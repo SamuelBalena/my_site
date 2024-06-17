@@ -9,6 +9,11 @@ export const Container = styled("section", {
   margin: "150px auto",
   padding: "50px 0",
 
+  "img": {
+    width: "100%",
+    height: "auto",
+  },
+
   "@tablet": {
     margin: "50px 0",
   },
