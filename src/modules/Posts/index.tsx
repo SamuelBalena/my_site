@@ -26,7 +26,7 @@ export const Posts = (): JSX.Element => (
     <PostsCarousel>
       <PostsCarouselItem>
         <CardPosts
-          src="/images/Banner código.jfif"
+          src="/images/Banner-código.png"
           alt="Banner Código"
           title="Algoritmos: Tipos de Dados"
           content="No contexto do mundo da programação, dados é tudo aquilo..."
@@ -44,7 +44,7 @@ export const Posts = (): JSX.Element => (
       </PostsCarouselItem>
       <PostsCarouselItem>
         <CardPosts
-          src="/images/Banner código.jfif"
+          src="/images/Banner-código.png"
           alt="Banner Código"
           title="Introdução a Algoritmos 👨‍💻"
           content="Algoritmos é um assunto básico que está presente em nossa..."

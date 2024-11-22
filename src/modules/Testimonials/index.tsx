@@ -26,7 +26,7 @@ export const Testimonials = (): JSX.Element => (
     <TestimonialsContainer>
       <TestimonialsContainerItem>
         <CardTestimonials
-          src="/images/Matheus.jfif"
+          src="/images/Matheus.png"
           alt="Matheus Sartori"
           name="Matheus Sartori"
           jobRole="Desenvolvedor Full Stack"
@@ -35,7 +35,7 @@ export const Testimonials = (): JSX.Element => (
       </TestimonialsContainerItem>
       <TestimonialsContainerItem>
         <CardTestimonials
-          src="/images/D[ario.jfif"
+          src="/images/D_ario.png"
           alt="Dário Junior"
           name="Dário Junior"
           jobRole="Desenvolvedor Full Stack"
@@ -44,7 +44,7 @@ export const Testimonials = (): JSX.Element => (
       </TestimonialsContainerItem>
       <TestimonialsContainerItem>
         <CardTestimonials
-          src="/images/Daniel.jfif"
+          src="/images/Daniel.png"
           alt="Daniel Sobrinho"
           name="Daniel Sobrinho"
           jobRole="Desenvolvedor Full Stack"
